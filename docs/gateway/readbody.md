@@ -7,12 +7,13 @@
 以下源码可知：默认是this.messageReaders = HandlerStrategies.withDefaults().messageReaders();
 默认的codec的maxSize = 256 * 1024
 > 3. 源码查找类顺序大致如下：
-> -> org.springframework.web.reactive.function.server.DefaultHandlerStrategiesBuilder
+> org.springframework.web.reactive.function.server.DefaultHandlerStrategiesBuilder
 > -> org.springframework.http.codec.support.ServerDefaultCodecsImpl
 > -> org.springframework.http.codec.support.BaseDefaultCodecs
 > -> org.springframework.core.codec.DataBufferDecoder
 > -> org.springframework.core.codec.AbstractDataBufferDecoder
-关键源码：
+
+##### ReadBody关键源码：
 
 ```java
 
@@ -79,6 +80,7 @@ public class ReadBodyPredicateFactory
 }
 	
 ```
+##### dataBufferDecoder源码
 
 ```java
 //
