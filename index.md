@@ -9,5 +9,9 @@
     * [RequestSize配置](docs/gateway/requestSizeConfig.md)
     * [ReadBody源码](docs/gateway/readbody.md)
     * [问题记录](docs/gateway/bug.md)
-* [算法](docs/algorithm/index.md)
+* [基础算法](docs/algorithm/index.md)
+    * [冒泡排序](bubbleSort.md)
+    * [选择排序](selectionSort.md)
+    * [插入排序](insertionSort.md)
+    * [归并排序](mergeSort.md)
 
