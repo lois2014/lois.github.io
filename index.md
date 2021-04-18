@@ -14,4 +14,7 @@
     * [选择排序](selectionSort.md)
     * [插入排序](insertionSort.md)
     * [归并排序](mergeSort.md)
-
+* [设计模式](docs/designpattern/index.md)
+    * [策略模式](docs/designpattern/strategy.md)
+    * [工厂模式](docs/designpattern/simplefactory.md)
+    * [适配器模式](docs/designpattern/adapter.md)

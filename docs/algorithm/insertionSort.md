@@ -49,8 +49,8 @@ public class InsertionSort {
             while (j >= 0 && a < array[j]) {
                 // 移动
                  array[j+1] = array[j];
-                    k = j;
-                j--;
+                 k = j;
+                 j--;
             }
             // 插入
             array[k] = a;
